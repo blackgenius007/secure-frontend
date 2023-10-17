@@ -1,0 +1,17 @@
+.logo-image {
+    width: 120px;
+    animation: beeAnimation 3s ease-in-out forwards;
+  }
+  
+  @keyframes beeAnimation {
+    0% {
+      transform: translateX(-100px) scale(0);
+    }
+    50% {
+      transform: translateX(0px) scale(1.5);
+    }
+    100% {
+      transform: translateX(0px) scale(1);
+    }
+  }
+  
