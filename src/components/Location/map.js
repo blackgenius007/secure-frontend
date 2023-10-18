@@ -2,7 +2,8 @@ import React, { useRef, useEffect, useState } from 'react';
 import config from '../../../config';
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
 
-mapboxgl.accessToken = config.MAPBOX_ACCESS_TOKEN;
+mapboxgl.accessToken =
+  'pk.eyJ1IjoiMnZpcnR1YWwiLCJhIjoiY2xtaDZ4ZW83MGxlNDNkcjIyczRkb200diJ9.CuPSFvDlxOJboImWxrMwog';
  
 
   export default function GpxMap() {
