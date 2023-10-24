@@ -1,6 +1,9 @@
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+// Define your base URL here
+const BASE_URL = 'http://127.0.0.1:5000';
 
+axios.defaults.baseURL = BASE_URL;
 
 const API_URL_R = '/api/v3/auth/register'
 const API_URL_L = '/api/v3/auth/login'   

@@ -9,6 +9,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@fvilers/disable-react-devtools": "^1.3.0",
     "@mapbox/mapbox-gl-geocoder": "^5.0.1",
     "@mui/icons-material": "^5.11.16",
     "@mui/lab": "^5.0.0-alpha.144",
@@ -59,8 +60,8 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-     "@babel/plugin-proposal-private-property-in-object": "7.21.11" 
-   },
+    "@babel/plugin-proposal-private-property-in-object": "7.21.11"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -84,6 +85,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "proxy": "https://backend-secure-ptqz.onrender.com "
+  }
 }
