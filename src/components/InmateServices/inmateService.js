@@ -1,4 +1,8 @@
 import axios from 'axios';
+// Define your base URL here
+const BASE_URL = 'https://backend-secure-ptqz.onrender.com';
+
+axios.defaults.baseURL = BASE_URL;
 
 const API_URL_REGISTER = '/api/v1/inmate/create';
 const API_URL_RETRIEVE = '/api/v1/inmate/inmates';

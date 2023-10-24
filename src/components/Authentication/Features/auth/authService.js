@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 // Define your base URL here
-const BASE_URL = 'http://127.0.0.1:5000';
+const BASE_URL = 'https://backend-secure-ptqz.onrender.com';
 
 axios.defaults.baseURL = BASE_URL;
 
